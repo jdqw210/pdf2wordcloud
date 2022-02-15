@@ -3,7 +3,7 @@
 #-- pdf2wordcloud.sh
 #-- https://github.com/jdqw210/pdf2wordcloud
 
-#Desc: Generate a 1600x1600 pixel wordcloud .png image from a .pdf, based on word frequency.
+#Desc: Generate a wordcloud .png image from a .pdf, based on word frequency.
 
 #--if user calls script incorrectly, let them know how to call it:
 if [ $# -ne 1 ];
