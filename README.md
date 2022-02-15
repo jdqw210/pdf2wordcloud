@@ -12,6 +12,12 @@ Requirements:
 	
 	
 Usage:
+
+	cd into pdf2wordcloud directory
+		cd pdf2wordcloud
+
+	make script executable:
+		chmod +x pdf2wordcloud.sh
 	
 	call script for single .pdf file:
 		./pdf2wordcloud.sh file.pdf
