@@ -25,6 +25,9 @@ Usage:
 	call script for all .pdfs in current working directory:
 		./pdf2wordcloud.sh '*.pdf'
 		
+	call script for all .pdfs in another directory:
+		./pdf2wordcloud.sh /path/to/other/directory/'*.pdf'
+		
 
 The script will ask you for the following user input:
 		
