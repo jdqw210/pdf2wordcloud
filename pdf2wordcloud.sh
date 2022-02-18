@@ -5,13 +5,6 @@
 
 #Desc: Generate a wordcloud .png image from a .pdf, based on word frequency.
 
-#--if user calls script incorrectly, let them know how to call it:
-if [ $# -ne 1 ];
-then
-	echo "Usage: $0 file.pdf";
-	exit -1
-fi
-
 #--ask user for maximum number of words and assign to variable $wordnum:
 echo "enter desired maximum number of words to use:"
 read -p "" wordnum
