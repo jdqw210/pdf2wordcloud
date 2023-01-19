@@ -21,26 +21,3 @@ Usage:
 	
 	call script for single .pdf file:
 		./pdf2wordcloud.sh file.pdf
-	
-	call script for all .pdfs in current working directory:
-		./pdf2wordcloud.sh '*.pdf'
-		
-	call script for all .pdfs in another directory:
-		./pdf2wordcloud.sh /path/to/other/directory/'*.pdf'
-		
-
-The script will ask you for the following user input:
-		
-	number of words to integrate into the wordcloud image file(s):
-		enter the maximum number of words you would like to show, ie. 500
-		
-	.png file width:
-		enter the width (in pixels) for your .png file(s), ie. 1920
-		
-	.png file height:
-		enter the width (in pixels) for your .png file(s), ie. 1080
-		
-		
-Confirm that values entered are OK, and the script will generate wordcloud images with the properties given.
-
-Images are output to the location of the original .pdf(s)
